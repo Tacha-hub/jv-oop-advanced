@@ -11,14 +11,12 @@ public class RightTriangle extends Figure {
     }
 
     public RightTriangle() {
-
     }
-
 
     @Override
     public void draw() {
         System.out.println("rectangle area: " + (legRightTriangle1 * legRightTriangle2) / 2
-                + " sq. units, first leg: " + legRightTriangle1
-                + " sq. units, second leg: " + legRightTriangle2 + " units, color: " + ColorSupplier.getRandomColor());
+                + " sq. units, first leg: " + legRightTriangle1 + " sq. units, second leg: "
+                + legRightTriangle2 + " units, color: " + ColorSupplier.getRandomColor());
     }
 }
